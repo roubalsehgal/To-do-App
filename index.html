@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="layout">
+      <p id="heading" align="center"><font size="20"><b>To-Do App</b></font></p>
+
+        <div id="container">\
+          <h1>Add Tasks:- </h1>
+          <hr>
+          <br>
+          <input id="text-box" type="text" name="text-box" placeholder="Enter your task!">
+          <input id="btn" type="button" name="enter" value="Click me!">
+        </div>
+        <div id="para">
+          <h1>Your tasks:- </h1>
+          <hr>
+          <ul id="my-ul">
+            
+          </ul>
+        </div>
+    </div>
+    <script>
+      var e=document.getElementById('text-box')
+      console.log(e)
+
+      var e1=document.getElementById('btn')
+      console.log(e1)
+
+      e1.addEventListener('click', testClick)
+
+      function testClick(){
+        var tasks = document.getElementById('my-ul')
+        var item = document.createElement('li')
+        tasks.appendChild(item)
+        item.textContent = e.value
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+body{
+	background-color: white;
+	background-image: url(image1.jpg);
+}
+.layout{
+	background-color: white;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 2%;
+	border-radius: 30px;
+	box-shadow:0 0 20px 0 #5ec0ea;
+}
+#heading{
+	font-family: 'PT Sans', sans-serif;
+}
+#container{
+	margin-top: 1%;
+	margin-bottom: 3%;
+	width: 90%;
+	padding: 1% 5% 1% 5%;
+}
+#container input[placeholder]{
+	font-size: 20px;
+	font-family: 'PT Sans', sans-serif;
+}
+#container input[value]{
+	font-size: 20px;
+	font-family: 'PT Sans', sans-serif;
+}
+#container h1{
+	margin-left: 0%;
+	font-family: 'PT Sans', sans-serif;
+}
+#para{
+	margin-top: 0%;
+	margin-bottom: 3%;
+	width: 90%;
+	padding: 1% 5% 1% 5%;
+}
+#para h1{
+	margin-left: 0%;
+	font-family: 'PT Sans', sans-serif;
+}
+#para li{
+	font-size: 25px;
+	font-family: 'PT Sans', sans-serif;
+}
+#text-box{
+	border:1px solid #037dc9;
+	outline: none;
+	margin-left: 0%;
+	padding: 2% 7% 2% 7%;
+	border-radius: 100px;
+	box-shadow: 4px 10px 0px #5ec0ea;
+}
+#btn{
+	background-color: #79d7ff;
+	border: none;
+	outline: none;
+	margin-left: 6%;
+	padding: 2% 6% 2% 6%;
+	border-radius: 100px;
+	box-shadow: 4px 10px 0px #5ec0ea;
+}
+#my-ul{
+	margin: 2% 15% 2% 0%;
+	list-style-type: none;
+}
